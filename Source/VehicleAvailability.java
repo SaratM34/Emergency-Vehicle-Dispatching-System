@@ -1,4 +1,26 @@
-		
+package org.sarat.daaProject;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.omg.Messaging.SyncScopeHelper;
+
+public class VehicleAvailability {
+
+
+	public HashMap vehicle(){
+		HashMap<String,String> vehmap = new HashMap<>();
+		vehmap.put("1", "Ambulance");
+		vehmap.put("2", "Fire Truck");
+		vehmap.put("3", "Police Vehicle");
+
+		return vehmap;
+	}
+
+
+}
 	
 	EmergencyVehicleDispatcher evd = new EmergencyVehicleDispatcher();
 	

@@ -1,3 +1,71 @@
+package org.sarat.daaProject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class EmergencyVehicleDispatcher {
+
+	public HashMap vehicleMap(){
+
+		ArrayList<String> li1 = new ArrayList();
+		//li1.add("1");
+		li1.add("2");
+		li1.add("3");
+
+		ArrayList<String> li2 = new ArrayList();
+		li2.add("1");
+		li2.add("2");
+		li2.add("3");
+
+		ArrayList<String> li3 = new ArrayList();
+		li3.add("1");
+		//li3.add("2");
+		li3.add("3");
+
+		ArrayList<String> li4 = new ArrayList();
+		li4.add("1");
+		li4.add("2");
+		//li4.add("3");
+
+		ArrayList<String> li5 = new ArrayList();
+		//li5.add("1");
+		li5.add("2");
+		li5.add("3");
+
+		ArrayList<String> li6 = new ArrayList();
+		li6.add("1");
+		//li6.add("2");
+		li6.add("3");
+
+		ArrayList<String> li7 = new ArrayList();
+		li7.add("1");
+		li7.add("2");
+		li7.add("3");
+
+		ArrayList<String> li8 = new ArrayList();
+		li8.add("1");
+		//li8.add("2");
+		li8.add("3");
+
+		ArrayList<String> li9 = new ArrayList();
+		li9.add("1");
+		li9.add("2");
+		//li9.add("3");
+
+		HashMap<String, ArrayList> map = new HashMap<>();
+		map.put("0", li1);
+		map.put("1", li2);
+		map.put("2", li3);
+		map.put("3", li4);
+		map.put("4", li5);
+		map.put("5", li6);
+		map.put("6", li7);
+		map.put("7", li8);
+		map.put("8", li9);
+		return map;
+	}
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
